@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+
+            .menu {
+
+                    background-color: black;
+                }
+            .menu dd {
+                padding: 10px 20px;
+                border: 1px solid blue;
+                display: inline-block;
+                border-style:none;
+                color:white;
+                position: relative;
+            }
+
+            .menu ul {
+                list-style-type: none;
+                display: none;
+            }
+
+       
+       
+            .menu dd:hover ul {
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 20px;
+                padding: 5px;
+                background-color: red;
+                color: white;
+                width:150px;
+            }
+
+            .menu ul li {
+                padding: 10px;
+                border-bottom: 1px solid black;
+                cursor: pointer;
+            }
+
+            .menu ul li:hover {
+                background-color: white;
+                color: blue;
+            }
+
+
+            
+        </style>
+
+    </head>
+
+    <body>
+        <dl class="menu">
+            <dd>
+                menu 1
+                <ul>
+                    <li>sub menu1</li>
+                    <li>sub menu2</li>
+                    <li>sub menu3</li>
+                </ul>
+            </dd>  
+            <dd>
+                menu 2
+                <ul>
+                    <li>sub menu1</li>
+                    <li>sub menu2</li>
+                    <li>sub menu3</li>
+                    
+                </ul>
+            </dd> 
+            <dd>
+                menu 3
+                <ul>
+                    <li>sub menu1</li>
+                    <li>sub menu2</li>
+                    <li>sub menu3</li>
+                </ul>
+            </dd> 
+        </dl>
+
+    </body>
+</html>
