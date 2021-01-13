@@ -1,0 +1,55 @@
+.image {
+
+            width: 23%;
+            padding: 1%;
+            float: left;
+            text-align: center;
+            height: 100%;          
+      }
+
+.clear {
+
+         clear: both;
+
+       }
+
+.image1 {
+
+         height: 259px;
+
+        }
+
+
+.color {
+
+         color: red;
+
+       }
+
+.number {
+
+
+            background-color: rgb(12, 236, 12);
+            border: 1px solid black;
+            padding: 5px;
+
+        
+        }
+
+
+.button {
+            width: 77%;
+            padding: 10px;
+            color: brown;
+            border-color: brown;
+
+        }
+
+.border {
+
+            border: 1px dashed black;
+            padding: 10px;
+            border-left: none;
+            border-right: none;
+
+        }
