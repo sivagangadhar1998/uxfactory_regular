@@ -1,0 +1,105 @@
+DOM----
+ .in dom we learn about the  how to chnage the html content,
+   how react with events,how add delete html elems,how
+   change the styles of html elemts
+
+1.what is html dom?
+
+by using js we can acess the html elements
+.it has methods,properties,and events
+
+
+2.dom methods?
+
+dom methods are used to perform the actions on html elemet
+.properties are values of html ele set or change html element
+.getelement by id is method
+.innerhtml is property
+
+---get element by id 
+.to use id to element easily acces the html elements
+
+---innerHTML
+by using inner html you changing or set the content of an element
+
+3.dom document?
+.its is owner object of all other objects
+.dom objects are use to represent the webpage
+.by using document object you can acess the any elemnt in page
+
+A.?finding html element?
+by using document.getElementById(id)   --find the element by id
+     document.getElemetByTagName(name)----
+           ---------------ClassName(name)
+B.?changing HTML Element?
+       property
+        ele.innerhtml=new html element
+        ele.attribute=new value;
+         ele.style.property=new style
+C.?adding or deleting html Elements
+.document.write()
+..........CreateElement()
+D.?adding event handlers?
+documet.getElementById("demo").onclick=function(){,,,,}
+adding ------code to on click
+
+
+4.dom elemts?
+it teaches how find and acess html eles
+a.?get elementById("demo")
+
+b.?getElement by Tag Name
+by using index number also we can acess the element
+c.?getElementsByClassName
+ by using index number
+
+d?querySelectorAll
+by using this we select the all calss ,or id etc index
+is working
+small doubt(by using index only get this main aim is all class etc)
+
+5.dom Html?
+allow the changing html content
+changing output stream?
+document.write
+changing html content?
+document.getElementById("demo").innerHTML=;
+changing the html attributr?
+document.getElementById("").src="";
+
+
+6.dom css?
+allow the changing html styles
+changing html style?
+documet.getelementById("").style.property.=
+
+7.dom events?---
+it allow javascript to react on dom events
+js excutes when react occurs like mouse click 
+
+8.dom events?
+onclick by using changing the alll with in element
+(dubt)
+
+event attributes??
+if yu add events t htm eemnts by using event attribute
+htm dm event?
+byusing  document u  add events
+onload and onunload?
+dea with ckies we  can use it
+it happen when user enter in t page
+
+onchange event?
+when user eave the input field functin is trigger and input text
+changes uppercase
+
+onmousever and on mouseout?
+is used trigger a function when user mouse over and out
+
+
+set Attribute?
+
+if you the set attribute to element by using tagname
+remve also same
+
+

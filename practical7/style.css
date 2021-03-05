@@ -1,0 +1,42 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+.conatiner{
+              widows: 100vh;
+              height:100vh;
+              border:1px solid black;
+              display:flex;
+              flex-direction: row;
+              justify-content: center;
+
+              column-gap: 10px;
+}
+.item1{
+
+    width:200px;
+    height:200px;
+    background-color: red;
+ 
+}
+
+.item2{
+
+    width:200px;
+    height:200px;
+    background-color:pink;
+
+    flex-grow: 10;
+    margin-top: 10px;
+    
+}
+
+.item3{
+
+    width:200px;
+    height:200px;
+    background-color:green;
+    
+}

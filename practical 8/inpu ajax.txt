@@ -1,0 +1,118 @@
+JS FORM VALIDATION
+
+.html form validation can done by using js
+
+.js validate the numeric input:
+
+
+1.AUTOMATIC FORM VALIDATION
+html form validation can be performed  automatically by the browser
+.in form fname is empty required attribute prevent the being form
+submitted
+
+
+
+DATA VALIADATION
+2.server side validation:is performed by web server after
+input sent to server
+3.clients side :is performed by web browserbefore send intoweb
+ server
+
+
+
+AJAX CONCEPT?
+.update page withoutout reload
+.request data from a  server-------------------------
+.receuve datafrom a server after page has been loaded
+.send data to a server
+.it satnds for asynchronous
+.it is a technique to acess aserver to web page
+
+
+
+1. what is ajax?
+.asynchronous javascript and xml
+.it isa not a programming languge
+.by using ajax eassily acessthe server to webpage.
+
+
+..it create the XMLhttprequest object(to request data from t
+he server
+
+1.ajax allow web pages top upadte asynochrly by exchange the data
+with web server
+
+BROWSER                 INTERNET                   SERVER
+.an event occur                                    .processs reuest
+                                                   .send the response ba
+.create xmlhttp request
+.send xml http request
+
+
+process the retun data by usingjs
+.update page content
+
+2.AJAXXMLHTTP
+USING THIS upadte the part of webpages without reload the page
+its supports all browsers
+var xhttp = new XMLHttpRequest();create
+
+abort() it is use the cancel current request
+getAllResponseHeaders() get all headers information
+getresponseheader()specific headers
+open(method,url,asyn,user,psd) to create request
+send()
+send(string) by using the posr
+
+
+3.xmlhttprequest OBJECT PROPERITIES
+1.onreadystatechange
+ definea function called change properties
+0:request not intilize
+1:server connection established
+2:request recieved
+3:processing request
+4:request finisihe and response back
+
+responsetext:return response data as string
+response:-----------------------------xml
+status:200:ok
+        403:forbidden
+        404:ok
+status text
+
+
+
+SEND A REQUEST TO SERVER---
+xhttp.open("GET" "ajax-info.txt",true);
+xhttp.send();
+send():send req to ser(get)
+send(string):send r------(post)
+
+.get is simpler and faster than post used most cases
+.post can use case of
+send large amunt of data ,,,no size limite
+send user inputs  POST is more robust and secure than GET.
+
+
+1.get request
+If you want to send information with the 
+GET method, add the information to the URL:
+
+2.post request
+To POST data like an HTML form, add an HTTP header with 
+setRequestHeader(). 
+Specify the data you want to send in the send() method:
+
+AJAX---SERVER RESPONSE
+1.onreadystatechange property
+ready state:hold the status of xmlhttprequst
+readstatechange:define func excute when ready state change
+status:hold the staus of xml http requst object
+
+onready state is function excute the when ready state changes
+
+
+----using call back function(doubt)
+function passed as aparameter to another function
+

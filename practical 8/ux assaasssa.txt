@@ -1,0 +1,109 @@
+1.let  convertseconds = hours =>(hours*60)*60;
+   console.log  (convertseconds(1));
+
+2.let arithmetic=(num1,num2,operator)=>{
+    switch(operator){
+   case "+":return num1+num2;
+            break;
+   case "-":return num1+num2;
+            break;
+   case "*":return num1+num2;
+            break;
+    case "/":return num1+num2;
+            break;
+}
+}
+ arithmetic(10,20,"-");
+
+
+5.let fun = x =>{
+   return x*3-2
+}
+fun(3)
+console.log(fun);
+
+3..let fun=(a)=>{
+
+    if(a%3===0){
+                 return true;
+              }
+                return false;
+           };
+ 
+          fun(9);
+          fun(13);
+          
+6..let voting=(a)=> a>18?true:false;
+voting(19);
+
+
+7.const statement=(`${a} knows ${d} which ${b} doesn't that ${c} knew about`)
+
+8. let str ="siva";
+
+   if(str.length % 2 ===0{
+                     return true;
+                }
+                   return false;
+               };
+
+
+9. let fun =word =>{
+
+    return word.substring(1);
+  }
+    word(sivagangadhar);
+
+
+
+      check for 2 conditions 
+10 ..let func=num=>{
+           if (num%2===0&&num<10){
+                 console.log("even number and less then10);
+           }
+   else if(num%2===0&&num>10){
+              console.log("even num and greter than 10);
+           }
+            else{
+                     retur false;
+   };
+ 
+ 
+
+
+
+11.let num=(a,b)=>{
+          if(a%b===0){
+                        return true;
+                     }
+                      return false;
+                    };
+                     num(8,2);
+                     num (1,5);
+12.let num=(a,b)=> {
+                  if ((a+b)*2)%2===0) {
+                     return true;
+                      }
+                          return false;
+                 }
+             num(2,2);
+             num(2,3);
+
+
+14.let num =(a)=>if(a>0){
+ return Math.abs(num);
+else{
+      return -(number);
+}
+}
+num(7);
+num(-3);
+
+
+15.let num =(x,y,z)=>{
+                        a =Math.max(x,y,z);
+                        console.log(a);
+                      }
+                       num(2,1,6);
+                
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    </head>
+    <body class="container">
+        <div class="header">
+            <i class="fa fa-cart-plus cart-icon"></i>
+            <span>Stock Manager</span>
+        </div>
+        <section class="input-section">
+                <div>
+                    <input id="input1" class="input1" type="textbox" placeholder="2">
+                </div>
+
+                <div>
+                    <input id="input2" class="input1" type="textbox" placeholder="product 2">
+                </div>
+                <input id="input3" class="input2" type="textbox"placeholder="daily electronic">
+                <input id="input4" class="input2" type="textbox" placeholder="299">
+        </section>
+        <div class="btn-section">
+                <button class="btn Create-botton" onclick="Create()">Create</button>
+                <button class="btn Read-botton">Read</button>
+                <button class="btn Update-botton">Update</button>
+                <button class="btn DeleteAll-botton" onclick="DeleteAll()">Delete All</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Product Name</th>
+                    <th>Seller</th>
+                    <th>Price</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="table-data"></tbody>
+        </table>
+        <script src="min.js"></script>
+    </body>
+</html>

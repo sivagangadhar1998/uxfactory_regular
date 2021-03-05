@@ -1,0 +1,131 @@
+global scope :a varibale declarde the top of a function or outside of function is called global varibles?
+let a=10;
+function greet(){
+
+               console.log(a);
+			   
+			   } greet();
+			   
+			    
+			   
+			 let a ="hello";
+			 function greet(){
+			           a=3;
+					   }
+					   console.log(a) its give the hello
+					   greet(); call the function here
+					   console.log(a);
+					   
+					   
+					   function greet() {
+                                          a = "hello"
+										  let a="hello" call the function outside it give error;
+                                      }
+
+                                 greet();
+
+                          console.log(a); // hello
+						  
+						  
+						  
+local scope:it acess iniside the block only;?
+   let a= 10;
+   
+   function greet(){
+                      let b=20;it can acces inside the block only
+					  console.log(a+b);
+					  }greet();
+					   console.log(a+b);throw b not defined
+					  
+					  
+this?this keyword refres global object (window)and it also refer to global objects and owner objects
+
+var x= 1;
+undefined
+console.log(x);
+VM286:1 1
+undefined
+this.x=10;
+10
+console.log(x);
+VM363:1 10
+undefined
+alone this
+
+var person = {
+  firstName  : "John",
+  lastName   : "Doe",
+  id     : 5566,
+  myFunction : function() {
+    return this;
+  }
+};
+undefined
+person.myFunction()
+{firstName: "John", lastName: "Doe", id: 5566, myFunction: ƒ}
+
+
+
+methods
+They can both be used to call an object method with another object as argument.
+<script>
+var person1 = {
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+}
+var person2 = {
+  firstName:"John",
+  lastName: "Doe",
+}
+var x = person1.fullName.call(person2); 
+document.getElementById("demo").innerHTML = x; 
+</script>
+
+
+
+types of errors in js?
+syntax errors and runtime errors andlogical errors , at the  compiling this are three errors 
+
+method to prevent errors?
+on error()method
+
+.syntax errors are the most comman errors in programming language
+.incorrect of syntax
+.syntax errors also called parsing errors
+. <script type=''text/javascript''>
+    window.show(; ---missing closing bracket
+  </script>
+  
+  
+  .runtime
+  These type of error occurs during the runtime of the program, after it is interpreted by the compiler.
+
+Consider this code segment:
+
+  <script type=''text/javascript''>
+    window.show();
+  </script>
+Notice that there is no show function defined. This program will raise an error at runtime as the function which is not present is called, although the syntax is correct.
+
+
+.logical erros
+
+
+
+
+
+can return void in js?
+The void operator evaluates the given expression and then returns undefined.
+void function test() {
+  console.log('boo!');
+  // expected output: "boo!"
+}();
+
+try {
+  test();
+} catch (e) {
+  console.log(e);
+  // expected output: ReferenceError: test is not defined
+}
+

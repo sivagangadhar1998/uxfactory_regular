@@ -1,0 +1,28 @@
+1.hoisiting
+2strict mode
+3.this object
+
+geteelemby id ,class,
+
+-------hositing:
+its means the moving declartion movies at the top
+var--if initial and declare any where in program it can run
+let:befre declare it use get refrenceerror
+consont:same typerror
+
+------usestrict
+.js code excute in strict mode
+.use begining of script its is a global scope
+.use inside a function is a local scope,inside only cause errors
+.delte the variables not allowed(or)functions
+-------this keyword
+this keyword is used to refre the global object
+.this refre to owner object
+.this refre to global object
+.this is undefine in strict mode
+.in method this refer to ownwerof the method
+----explict function binding
+using call and apply this are predefined methods
+ call object method another method as argument
+---js debugging
+.secarch for errors and fixing that errors is called debugging

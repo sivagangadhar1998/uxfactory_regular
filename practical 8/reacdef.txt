@@ -1,0 +1,28 @@
+React is an open-source, front end, 
+JavaScript library for
+ building user interfaces or UI components
+
+
+used to react developed the single page applications
+and mobile applicatios
+
+
+dom isreal and if u want uapdatethe any element in the 
+dom with refersh the whole page
+
+virtual dom is copy of real dom but difference is 
+ without the refresh of whole page update the particuar
+data manipuating is so faster
+
+
+
+
+Cmpnents are the independent the using many times 
+in an application
+
+
+
+props is a specia keyword in the react js use to props 
+add the propreties to  element ,,,
+and using props u can send the the date one component
+to another comopnent 

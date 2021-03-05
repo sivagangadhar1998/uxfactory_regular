@@ -1,0 +1,1468 @@
+You11:29 AM
+let colors=map.(value=>console.log(value))
+gode srinivas11:32 AM
+let value=colorsArray.map(value=>console.log(value))
+You11:32 AM
+ sir const scenario re declare and re assign is not applied sir how we can can u sir this
+Praveen Reddy11:36 AM
+let value=colorsArray.map((value,indexx)=>return value+(index+1))
+let value=colorsArray.map((value,index)=>return value+(index+1))
+Praveen Reddy11:40 AM
+const myArray = [2,4,5,8];
+[2,4,8]
+Sunil H V11:43 AM
+let evenNumbers=myArray.filter(val=>val%2==0);
+console.log(evenNumbers);
+
+Anirudh Khosla12:09 PM
+Static - this is the default value, all elements are in order as they appear in the document.
+Relative - the element is positioned relative to its normal position.
+Absolute - the element is positioned absolutely to its first positioned parent.
+Fixed - the element is positioned related to the browser window.
+var sum = function (a, b) {return a +b};
+var sumoftwonumbers = sum(4, 3);
+anynumu function
+
+
+const message = function() {  
+    console.log("This message is shown after 3 seconds");
+}
+ 
+setTimeout(message, 3000); call back
+
+function print(callback) {  
+    callback();
+}
+function callback() {}
+
+
+
+
+
+flex blox module is makes easier to design the flexible
+responsive structure layout without float and postion
+
+
+
+function OuterFunction() {
+
+    var outerVariable = 1;
+
+    function InnerFunction() {
+        console.log(outerVariable);
+    }
+
+    InnerFunction();
+}
+
+
+window.location.href  = (“http//google.com”);
+
+
+
+var bus = {
+ 'model': 2017,
+company: Tata
+};
+Sunil H V11:37 AM
+car.concat(bus);
+car.assign(bus);
+Praveen Reddy11:38 AM
+{...car, ...bus}
+
+
+
+function total(...theArgs) {
+   
+}
+
+console.log(sum(10, 20, 30))
+
+
+
+Call:
+Calls a function with a given this value and arguments provided individually.
+Apply():
+Calls a function with a given this value and
+ arguments provided as an array (or an array like object).
+
+
+
+Praveen Reddy10:49 AM
+function Pet(type, name, age, greeting) {
+  this.breed = type;
+  this.name = name;
+  this.age = age;
+  this.greeting = greeting;
+  this.sayHello = function () {
+    return `${this.name} says 'hello' as ${this.greeting}`;
+  }
+}
+const pet1 = new Pet("cat", "Felina", 3, "meow");
+Praveen Reddy10:51 AM
+console.log(pet1);
+ prints: Pet {
+breed: 'cat',
+name: 'Felina',
+age: 3,
+greeting: 'meow',
+sayHello: [Function] } 
+Praveen Reddy10:52 AM
+console.log(pet1.sayHello());
+"Felina says 'hello' as meow"
+
+`${num}X${numbers}=${result}`
+UX Factory11:14 AM
+Priority is $ followed by concat followed by +
+Praveen Reddy11:15 AM
+`${num}X${numbers}=${num*numbers}` tempalte
+
+
+
+hands on
+
+
+
+var x = 10;
+Praveen Reddy10:09 AM
+Create a variable, named carName, assigning the value "BMW" to it.
+Rajesh Madine10:10 AM
+var carName = "BMW";
+yerramsetti naveen10:10 AM
+var is datatype a is variable name
+You10:12 AM
+obj.carName="bmw"
+yerramsetti naveen10:12 AM
+let carName="BMW"
+Sunil H V10:13 AM
+let user="sunil",age=24;
+prasanna sagi10:13 AM
+const carname="Swift"
+prasanna sagi10:14 AM
+const carName="BMW, carCost=500000;
+
+
+
+2nd question
+Create a variable, named y, assigning the value 50 to it.
+
+gode srinivas10:16 AM
+var y = 50;
+You10:16 AM
+var y ="50";
+Rajesh Madine10:18 AM
+let y;
+Y=50;
+
+
+3rd
+On a single line, declare three variables with the given names and values: carName = "BMW" model = 2018
+
+On a single line, declare three variables with the given names and values: carName = "BMW" model = 2018 carWheels=4
+
+Sunil H V10:21 AM
+var carName="BMW", model=2018,carWheels=4
+gode srinivas10:22 AM
+var carName = "BMW",model = 2018,carWheels=4;
+
+
+
+let numberA = 10;
+let numberB = 20;
+let sum = numberA+numberB;
+alert(sum);
+prasanna sagi10:34 AM
+let sum,
+ numberA=10,
+ numberB=20;
+ sum=numberA+numberB;
+ alert(sum);
+
+
+
+4th
+Multiply 10 with 6, alerting the result.
+Rajesh Madine10:42 AM
+let mul= 10*6 ;
+alert(mul);
+gode srinivas10:42 AM
+alert(10*6);
+prasanna sagi10:43 AM
+let mul,
+ numberA=10,
+ numberB=6;
+ sum=numberA*numberB;
+ alert(mul);
+You10:43 AM
+let a=10,b=6;alert(a*b);
+Sunil H V10:43 AM
+let result=10*6; alert(result);
+prasanna sagi10:43 AM
+let mul,
+ numberA=10,
+ numberB=6;
+ mul=numberA*numberB;
+ alert(mul);
+yerramsetti naveen10:43 AM
+let a = 10,b = 6;multiply=a*b;
+console.log(multiply);
+yerramsetti naveen10:44 AM
+let a = 5;b = 6,multiply=a*b;
+console.log(multiply);
+let a = 10,b = 6,multiply=a*b;
+console.log(multiply);
+
+
+
+var numberA   = 20;
+var numberB=10;
+console.logs((numberA-numberB))identify mistakes
+answer
+let numberA=20,numberB=10; console.log(numberA-numberB);
+
+
+
+
+Next question : How do we get remainder
+ of 11 when divided by 5?
+alert(11%5);
+Sunil H V11:02 AM
+console.log(11%5);
+gode srinivas11:03 AM
+console.log(11%5)
+Praveen Reddy11:03 AM
+what is 10/5?222
+what is 10%5?0000
+You11:04 AM
+alert(11%5)
+
+
+Question : Get biggest number from 2 numbers in x and y
+Rajesh Madine11:15 AM
+let num1=10,
+     num2=20;
+let res = num2>num1;
+You11:16 AM
+let x =10,y=20;
+Sunil H V11:16 AM
+let x=10,y=5; console.log(x>y);
+prasanna sagi11:17 AM
+x=2,y=5;
+alert(x<y);//true
+You11:17 AM
+let x=10,y=20;alert(x<y);
+
+
+
+let length = 16;
+
+time++ //Unary operator (increment)
+2 + 3 //Binary Operator (addition)
+a ? 'hello' : 'world' //Ternary/Conditional operator
+
+
+
+["Orange", "John", 56, 8.9];use same type of values
+
+
+
+
+
+var fruits= [
+   ["orange", "banana", "apple"],
+   ["grapes", "papaya", "pineapple"],
+];
+prasanna sagi11:55 AM
+let fruits = [Orange:2", "Apple", "Banana"];
+const fruits= [
+   ["orange", "banana", "apple"],
+   ["guava", "papaya", "pineapple"],
+];
+Rajesh Madine11:56 AM
+let fruits =[ ["orange", "banana" "apple"], [123, 456,789];
+gode srinivas11:57 AM
+let fruits = [["Orange"], ["Apple"], ["Banana"]];
+You11:57 AM
+
+let fruits = [ ["Orange"],[ "Apple"],[ "Banana"] ,];
+Praveen Reddy11:58 AM
+fruits = [[], []] - 2D
+fruits = [ [ [] ] ], [ [] ] ] - 3D
+Sunil H V11:59 AM
+fruits[1][1];
+gode srinivas11:59 AM
+fruits[1][1]
+prasanna sagi12:00 PM
+fruits[1][1]
+Praveen Reddy12:01 PM
+
+
+2demensional array
+Refer this pls :var fruits= [
+   ["orange", "banana", "apple"],
+   ["grapes", "papaya", "pineapple"],
+
+
+
+
+var fruits=[["orange", "banana", "apple", "jackfruit"], ["grapes", "papaya", "pineapple"],];
+gode srinivas12:12 PM
+fruits[0] =  ["orange", "banana", "apple" "jackfruit"]
+            fruits[1] = ["grapes", "papaya", "pineapple"]
+Rajesh Madine12:12 PM
+o/p:  ["orange", "banana", "apple","jackfruit"], ["grapes", "papaya", pineapple"];
+prasanna sagi12:13 PM
+var fruits=[["orange", "banana", "apple", "jackfruit"], ["grapes", "papaya", "pineapple"],];
+
+
+
+
+var fruits= [
+   ["orange", "banana", "apple"],
+   ["grapes", "papaya", "pineapple"],
+   "jackfruit"
+];
+var fruits= [
+   ["orange", "banana", "apple"],
+   ["grapes", "papaya", "pineapple"],
+   ["jackfruit"]
+];
+Praveen Reddy12:20 PM
+difference between fruits.push("jackfruit") and fruits.push(["jackfruit"])?
+];
+fruits[0] =  ["orange", "banana", "apple"]
+fruits[1] =   ["grapes", "papaya", "pineapple"]
+
+
+
+today condition based one?-----------------------------
+monday jan 11
+
+objects-----
+let person={
+firstName:"siva",
+lastName:"gangadhar",
+};
+
+
+console. log(person.firstName +" "+lastName);
+
+person["age"]=25;
+
+
+
+
+
+console.log(person["age"]);
+prasanna sagi10:26 AM
+console.log(math.random());
+Sunil H V10:27 AM
+generate random
+console.log(Math.random());
+prasanna sagi10:27 AM
+console.log(Math.random());
+Rajesh Madine10:27 AM
+console.log(Math.random());
+You10:27 AM
+console.log(Math.random());
+
+
+
+
+Create a function that takes a
+ number as its only argument and returns 
+'true' if it's less than or equal to zero, otherwise return false.
+Rajesh Madine10:37 AM
+let x=10;
+if(x>0){
+console.log("i am in");
+}
+else{
+console.log(" i am out");
+}
+yerramsetti naveen10:38 AM
+if (year == 2021) {
+  alert( "iam in" );
+  alert( "iam out" );
+}
+prasanna sagi10:38 AM
+let a=10;
+if(a>0){
+console.log("I Am In");
+}
+else{
+console.log(" I Am Out");
+}
+Sunil H V10:40 AM
+function comp(a){
+if(a<=0){
+   return ture;
+}
+else{
+   return false;
+}
+}comp(-1);
+yerramsetti naveen10:40 AM
+let year=2000
+if (year == 2021) {
+  alert( 'iam out' );
+} else {
+  alert( 'iam out' ); 
+}
+You10:40 AM
+if a=10;
+if(a>0){
+console.log("i am in");
+else{
+         console.log("i am out");
+};
+if a=10;
+if(a>0){
+console.log("i am in");
+}
+else{
+         console.log("i am out");
+};
+Rajesh Madine10:42 AM
+function number (x>0){
+console.log(" i am in");
+}
+else{
+console.log (" i am out");
+}
+}
+number(-1);
+yerramsetti naveen10:42 AM
+let year=2000
+if (year == 2021) {
+  alert( 'iam in' );
+} else {
+  alert( 'iam out' ); 
+}
+
+
+
+Create a function that takes a number
+ as its only argument and returns 'true'
+ if it's less than or equal to zero, otherwise return false.
+let num=(a)=>{
+if(a<=0){
+   return true;
+}
+else{
+   return false;
+}
+}(num-1);
+prasanna sagi10:58 AM
+let num=(a)=>{
+if (a<=0){
+return true;
+}
+else{
+return false;
+}
+}
+num(-1);
+
+condition ? exprIfTrue : exprIfFalse tinanry opertaor
+
+
+Praveen Reddy11:09 AM
+condition ? exprIfTrue : exprIfFalse
+prasanna sagi11:10 AM
+let num =a=>{
+if(a<=0)?return true:return false;
+}
+Rajesh Madine11:11 AM
+let time=12;
+x=12 ?  true : false;
+prasanna sagi11:11 AM
+let num =a=>{
+a<=0?true:false;
+}
+prasanna sagi11:12 AM
+let num =a=>{
+a <= 0 ? true:false;
+}
+let num = a= > {
+a <= 0 ? true : false;
+}
+You11:14 AM
+let num =(a) => {
+   a<=0 ? True : False;
+};
+Sunil H V11:14 AM
+let num = a => a<=0?true:false;
+num(1);
+Rajesh Madine11:14 AM
+let time = (x)=>{
+x>=12  ? true : false ;
+}
+time(10);
+
+
+let time = (x)=>
+x>=12  ? true : false ;
+time(10);
+You11:18 AM
+let num= (a) => a<=0?  true: false;
+num(-1);
+by using arrow functions and tinanry opertor
+single condition use one line
+mutiple ststements write brackets
+
+
+
+
+
+const lessThanOrEqualToZero = num => num <= 0;no need of 
+return single ststements
+
+console.log(lessThanOrEqualToZero(0));
+Praveen Reddy11:26 AM
+const lessThanOrEqualToZero = num =>{ num <= 0};
+const lessThanOrEqualToZero = num =>{
+ num <= 0
+};
+Praveen Reddy11:28 AM
+const lessThanOrEqualToZero = num => num <= 0;
+
+const lessThanOrEqualToZero = num => {need here
+return num <= 0
+};
+
+console.log(lessThanOrEqualToZero(0));
+
+
+
+Create a function that takes two arguments. Both arguments are integers, a and b. Return true if one of them is 10 or if their sum is 10.
+prasanna sagi11:38 AM
+let num = a => a += 10;
+num(10);
+Rajesh Madine11:39 AM
+Condition
+let num = (a,b) => {
+if(a>10|| b>10||a+b){ 
+console.log("true");
+}
+else{
+console.log("true");
+}
+}
+num(5,6);
+Sunil H V11:41 AM
+let equalToOrSum = (a,b) => (((a === 10) || (b === 10)) || (a+b === 10));
+console.log(equalToOrSum(5,5));
+Rajesh Madine11:42 AM
+let num = (a,b) => {
+if(a>9|| b>9||a+b){ 
+console.log("true");
+}
+else{
+console.log("false");
+}
+}
+num(5,6);
+prasanna sagi11:44 AM
+let num = (a,b) => (((a===10) || (b===10)) || (a+b === 10));
+num(10);
+Rajesh Madine11:46 AM
+let num = (a,b) => {
+if(a==10|| b==10||a+b>=10){ 
+console.log("true");
+}
+else{
+console.log("false");
+}
+}
+num(5,6);
+You11:47 AM
+
+let num =(a,b)=>{
+if(a===10||b===10||a+b===10)
+{ return true;
+};
+return false;
+};
+num(5,5);
+yerramsetti naveen11:48 AM
+let sum = (a,b) => 
+if(a===10){ 
+alert("true");
+}
+else if(b===10){
+alert("false");
+}
+else{
+sum(5+5)
+}
+prasanna sagi11:49 AM
+let num = (a,b) => (((a===10) || (b===10)) || (a+b === 10));
+num(1,9);
+Rajesh Madine11:50 AM
+let num = (a,b) => {
+if(a==10|| b==10||a+b==10){ 
+console.log("true");
+}
+else{
+console.log("false");
+}
+}
+num(4,6);
+You11:50 AM
+
+let num =(a,b)=>{
+if(a===10||b===10||a+b===10)
+{
+
+
+
+
+
+
+
+
+
+
+Write a function to push in different array by using for loop
+
+pushArray([1, 2, 3, 4]) ➞ [1,2,3,4]
+Praveen Reddy10:15 AM
+Output =>  [1a,2a,3a,4a]
+prasanna sagi10:26 AM
+let arr = [ 1,2,3,4];
+let array;
+for(i=0;i<1;i++);
+array.push('a');
+ 
+UX Factory10:28 AM
+Tip : Dont use reserved words like Array for variable names
+prasanna sagi10:28 AM
+let arr = [ 1,2,3,4];
+let array;
+for(i=0;i<1;i++);
+arr[i];
+array.push('a');
+UX Factory10:28 AM
+for e.g, let array..
+Sunil H V10:28 AM
+let arr=[1,2,3,4];
+let arr1=[];
+for(let i=0;i<=arr.length;i++){
+console.log(arr1.push(arr[i]));
+}
+UX Factory10:28 AM
+Instead say let numArray
+Praveen Reddy10:29 AM
+arr[i]+'a"
+Sunil H V10:32 AM
+let arr=[1,2,3,4];
+let arr1=[];
+for(let i=0;i<=arr.length-1;i++){
+console.log(arr1.push(arr[i]+'a'));
+}
+UX Factory10:35 AM
+Please paste the code
+You10:35 AM
+let functon (){
+var array= [1,2,3,4 ];
+var array1=[ ]
+  for(i=0; i<=4; i++){
+       array.push(i);
+      array1.push(array);
+}
+alert(array1);
+};       
+Sunil H V10:36 AM
+let arr=[1,2,3,4];
+let arr1=[];
+for(let i=0;i<arr.length;i++){
+console.log(arr1.push(arr[i]+'a'));
+}
+prasanna sagi10:36 AM
+let arr = [1,2,3,4];
+let array=[];
+for(let i=0;i<=arr.length;i++){
+array.push(array[i] + "a");
+}
+ 
+Praveen Reddy10:41 AM
+for(let i=1;i<arr.length;i++){
+console.log(arr[i])
+}
+UX Factory10:44 AM
+Dont use array
+Anirudh Khosla10:45 AM
+https://jsfiddle.net/
+Praveen Reddy10:46 AM
+array.push(array[i] + i);
+Sunil H V11:00 AM
+let arr=[];
+let pushArray = arr => {
+let arr1=[];
+for(let i=0;i<arr.length;i++){
+    arr1.push(arr[i]+'a');
+   }
+console.log(arr1);
+}
+pushArray([1,2,3,4]);
+UX Factory11:02 AM
+What does arr have in the beginning?
+Ok in the function
+Anirudh Khosla11:07 AM
+let pushArray = arr => {
+let arr1=[];
+for(let i=0;i<arr.length;i++){
+    arr1.push(arr[i]+'a');
+   }
+console.log(arr1);
+}
+pushArray([1,2,3,4]);
+You11:09 AM
+
+
+
+let pushArr=modifiedarray=>{
+var modifiedarray=[ ]
+  for(i=0; i<array.length; i++){
+  modifiedarray.push(i+"a");
+  console.log(i);
+}
+console.log(array1);   
+}
+pushArr ([1,2,3,4]);   
+UX Factory11:09 AM
+Paste the code
+Anirudh Khosla11:13 AM
+let modifiedArray = [];
+const pushArray = (originalArray) => {
+  for (let i = 0; i < originalArray.length; i++) {
+    modifiedArray.push(originalArray[i] + 'a');
+  }
+}
+pushArray([10,20,30,40]);
+console.log(modifiedArray);
+UX Factory11:14 AM
+Which one is an argument and which one is function name??
+Sunil H V11:15 AM
+let pushArray = arr => {
+let arr1=[];
+for(let i=0;i<arr.length;i++){
+arr1.push(arr[i]+'a');
+}
+console.log(arr1);
+}
+pushArray([1,2,3,4]);
+prasanna sagi11:15 AM
+let arr1=[];
+let pushArray = arr => {
+for(let i=0;i<arr.length;i++){
+arr1.push(arr[i] + "a");
+}
+console.log(arr1);
+}
+pushArray[1,2,3,4];
+UX Factory11:15 AM
+Use meaningful var names, sunil and prasanna
+arr1, pushArray, arr make no sense
+prasanna sagi11:16 AM
+let pushArray = arr => {
+let arr1=[];
+for(let i=0;i<arr.length;i++){
+    arr1.push(arr[i]+ "a");
+   }
+console.log(arr1);
+}
+pushArray([1,2,3,4]);
+UX Factory11:16 AM
+arr1 is updatedArray or newArray
+function name pushArray makes no meaning
+Change it to updateArray
+prasanna sagi11:16 AM
+ok sir
+let updateArray = arr => {
+let arr1=[];
+for(let i=0;i<arr.length;i++){
+    arr1.push(arr[i]+ "a");
+   }
+console.log(arr1);
+}
+updateArray([1,2,3,4]);
+Sunil H V11:18 AM
+let pushArray = originalArray => {
+let modfiedArray=[];
+ for(let i=0;i<originalArray.length;i++){
+ modfiedArray.push(originalArray[i]+'a');
+ }
+console.log(modfiedArray);
+}
+pushArray([1,2,3,4]);
+UX Factory11:18 AM
+Now what is pushArray function name again?
+Rest all good Sunil
+Sunil H V11:19 AM
+let updateArray = originalArray => {
+let modfiedArray=[];
+ for(let i=0;i<originalArray.length;i++){
+ modfiedArray.push(originalArray[i]+'a');
+ }
+console.log(modfiedArray);
+}
+updateArray([1,2,3,4]);
+UX Factory11:19 AM
+Good one!
+Sunil, explain this clearly
+prasanna sagi11:19 AM
+let updatedArray = originalArr => {
+let newArray=[];
+for(let i=0;i<originalArr.length;i++){
+    newArray.push(originalArr[i]+ "a");
+   }
+console.log(newArray);
+}
+updatedArray([1,2,3,4]);
+UX Factory11:19 AM
+Whats happening in the loop
+Etc
+The whole function
+UX Factory11:21 AM
+Why consoling in loop
+Why not once at the end of tge loop
+UX Factory11:23 AM
+Why cant it i>length
+Praveen Reddy11:25 AM
+Write a function to reverse an array by using for loop
+reverseArray([1, 2, 3, 4]) ➞ [4, 3, 2, 1]
+UX Factory11:27 AM
+You can create a new array with 4 3 2 1
+U don't need to modify the original array [1,2,3,4]
+UX Factory11:36 AM
+Be fast!! Speed is important
+Think logically
+What you need..
+You have [1,2,3,4]..output required is [4,3,2,1]
+UX Factory11:37 AM
+You need to reverse the loop
+prasanna sagi11:39 AM
+let updatedArray = originalArr => {
+let newArray=[];
+for(let i=originalArr.length-1;i>=0;i--){
+    newArray.(originalArr[i]);
+   }
+console.log(newArray);
+}
+updatedArray([1,2,3,4]);
+prasanna sagi11:42 AM
+let updatedArray = originalArr => {
+let newArray=[];
+for(let i=originalArr.length-1;i>=0;i--)
+	{
+    newArray.push(originalArr[i]);
+	}
+console.log(newArray);
+}
+updatedArray([1,2,3,4]);
+You11:43 AM
+let reverseArray =originalArray=>{
+
+  newArray = [ ]
+  for ( i=o;i< originalArray.length;i--);
+        newArray.push(orginalArray[i]);
+        }
+        console.log(newArray);
+}
+reverseArray([1,2,3,4]);    
+UX Factory11:54 AM
+Using loops will make you think logical
+Sunil H V11:55 AM
+let reverseArray = originalArray => {
+    var newArray = [];
+    for (var i = 0; i < originalArray.length; i++) {      
+        newArray[i] = originalArray[originalArray.length - i - 1];
+    }   
+    return newArray;
+}
+reverseArray([1,2,3,4]);
+UX Factory12:00 PM
+Can we yse pop
+Instead of push
+Use
+Why only push
+Pushing from to where
+Does push remove element from originalArray
+UX Factory12:02 PM
+U sure Prasanna??
+
+
+
+
+
+         return true;
+}else{
+          return false;
+};
+num(5,5);
+
+let sum = (a,b) => (a == 10) || (b == 10) || (a+b == 10);
+sum(0,10);
+You11:54 AM
+let num =(a,b) => (a===10) || (b===10) || (a+b===10);
+num(5,5);
+
+
+
+
+const namesList = ['John', 'Tom', 'Tim', 'Pascal', 'Castan', 'Paul'];
+const searchingName = "Pascal";
+
+let searchNameList=(nameListData,searchName)=>{
+
+let i=1;
+while(i<=nameListData.length){
+console.log(i);
+if(nameListData[i]===searchName){
+   console.log(`found in ${i} and seraching${serachName}`
+}
+
+i++;
+}
+};
+searchNameList(namesList,searchingName);
+
+
+const studentDetails = { name: 'John', class: '3', section: 'B' }
+let  displayStudentDetails=studentDetails=>{
+for in(let i in studentDetails){
+    console.log(`student name is${i}${studentDetails[i]}`)
+      }
+}
+ displayStudentDetails(studentDetails);
+
+ 
+
+
+const statesList = [{ "state": "Bihar", "capital": "Patna" }, { "state": "Maharashtra", "capital": "Mumbai" }, { "state": "HimachalPradesh", "capital": "Shimla" }, { "state": "Gujarat", "capital": "Gandhinagar" }];
+
+let listAllStateAndCapitals=listofStates=>{
+for in(let i listofStates){
+console.log(`state: ${listofstates[i].state},capital:${listofstates[i].capitals}`);
+}
+}
+    listAllStateAndCapitals(statesList );
+
+
+
+const languagesList = ['Python', 'Javascript', 'Go', 'Java', 'PHP', 'Ruby'];
+let ListAllLanguages=languages=>{
+
+  languages.map((language,index)=>{
+    console.log(`Language Name: ${language}, its Index is: ${index},
+    and length of string i: ${language.length}`);
+  
+  })
+}
+  ListAllLanguages(languagesList);
+
+
+const languagesList = ['Python', 'Javascript', 'Go', 'Java', 'PHP', 'Ruby'];
+const listAllLanguages = languages => {
+  languages.map((element, index) => {
+    console.log(`Language Name is :${element},It's index is: ${index},
+    Length of string i: ${element.length}`)
+  });
+};
+listAllLanguages(languagesList);
+
+
+
+
+
+
+
+
+ 'name': 'Tom',
+    'age': 36,
+    'active': true
+  },
+  {
+    'name': 'Tim',
+    'age': 40,
+    'active': false
+  },
+  {
+    'name': 'Toy',
+    'age': 15,
+    'active': true
+  }
+];
+const userName = 'toy';
+const findNameAndDisplyDetails = (usersList, searchingName) => {
+  const foundValue = usersList.find(userDetails => {
+ 										return (userDetails.name).toLowerCase() === (searchingName).toLowerCase(); 
+  })
+  if(foundValue){//checking wether the found value is present or not
+  	return foundValue;
+  }
+  
+ return `Provided user ${searchingName} is not found`;
+}
+const result = findNameAndDisplyDetails(users,userName);
+console.log(result);
+
+const marksList = [65, 55, 35, 70, 40];
+const getSumOfTheList=(listmarks)=>{
+ const totalMarks= listmarks.reduce((sum,marks)=>{
+  let total=sum+marks;
+   return total;
+    
+  },0);
+  let average=totalMarks/listmarks.length; 
+  // return average
+  console.log(average);
+}
+console.log(getSumOfTheList(marksList));
+const sum = 5+5;
+
+
+
+const marksList = [65, 55, 35, 70, 40];
+const getSumOfTheList=(listmarks)=>{
+ const totalMarks= listmarks.reduce((sum,marks)=> sum+marks);
+  let average=totalMarks/listmarks.length; 
+   return `Totalmarks:${totalMarks},and average:${average}`;
+  
+    
+}
+console.log(getSumOfTheList(marksList));
+
+
+
+
+
+
+
+
+
+
+console.log("1");
+setTimeout(function() {
+ console.log("2")
+}, 0);
+console.log("3");
+prasanna sagi11:17 AM
+1 3 2
+You11:19 AM
+function mul(x) {
+   return function(y) {
+      return function(z) {
+         return x*y*z;
+      }
+   }
+}
+console.log(mul(2)(3)(4)); what cncept it is
+prasanna sagi11:21 AM
+X=2,Y=3,z=4
+24
+output and concept
+yerramsetti naveen11:23 AM
+const length = 4;
+const numbers = [];
+for (var i = 0; i < length; i++);{
+  numbers.push(i + 1);
+}
+numbers;
+You11:23 AM
+[Yesterday 6:31 PM] Sindhuja Govindarajan
+    
+
+
+aVar;   // => ???
+aConst; // => ???
+var aVar = 'value';
+const aConst = 3.14;
+
+concept
+Sunil H V11:23 AM
+Func a
+
+Var a
+
+console.log(a())
+prasanna sagi11:25 AM
+syntax error
+sorry Reference Error
+
+
+
+
+
+
+
+const fruits = ['Apple', 'Mango', 'Cherry'];
+const vegitables = ['Tomato', 'Carrot', 'Onions'];
+const mergeTwoValues=(fruitsData, vegitableData)=>{
+ if(Array.isArray(fruitsData)&&arrayisArray(vegetablesData)){
+          return  [..fruits,...vegetables];
+}
+return not array;
+}
+             console.log( mergeTwoValues((fruits,vegetabes));
+
+
+
+
+
+const carParts = {
+  wheels: 4,
+  mirrors: 3,
+  seat: 6
+};
+const carFeatures = {
+  color: 'red',
+  autoGear: true
+};
+
+
+const firstName = "John";
+const lastName = "Kim";
+const mergeTwoValues = (firstValue, secondValue) => {
+  if (typeof firstValue === 'string' && typeof secondValue === 'string'){
+    return `${firstValue} ${secondValue}`;
+  }
+
+  if (typeof firstValue === 'object' && typeof secondValue === 'object'){
+    return {
+      ...firstValue,
+      ...secondValue
+    };
+  }
+
+  if (Array.isArray(firstValue) && Array.isArray(secondValue)) {
+    return [...firstValue, ...secondValue];
+  }
+
+  return `Not Valid`
+
+
+let x = 10 ;
+function  operator (){
+console.log('x: ', x);
+};
+x = 20;
+operator(x);
+x = 50;
+
+let y = 30 ;
+let  operators =  () =>{
+console.log('y: ', y);
+};
+y = 40; give40 meNS CA BEFORE OPERATER CALLING
+operators(y);
+y = 60;
+}
+console.log(mergeTwoValues(firstName, lastName)
+
+
+
+
+
+
+
+
+
+
+Write a function to accept 2 parameter, one is for user details(object), another one is for wishing Text( use default value as 'Hello'). By using these two parameters print as mention below:
+Use Destructuring the object, spread operator for array and check the vegetarian use ternary operator.
+
+const userDataOne = {name: 'Tim', age: 22, veggie: false, food:['fish', 'egg', 'meat']};
+const userDataTwo = {name: 'Krishna', age: 20, veggie: true, food:['Roti', 'Carrot', 'VegCurry']};
+//Output: 
+Hi, Tim is 22 years old. He is a non-vegetarian and likes to eat, fish-egg-meat.
+
+Hello, Krishna is 20 years old. He is a vegetarian and likes to eat, Roti-Carrot-VegCurry.
+
+
+const userDataOne = {name: 'Tim', age: 22, veggie: false, food:['fish', 'egg', 'meat']};
+const userDataTwo = {name: 'Krishna', age: 20, veggie: true, food:['Roti', 'Carrot', 'VegCurry']};
+  const wishingValue= "hello";
+const  displayUserDetails=(userData, wishingStr)=>{
+ const{name,age,veggie}=userData;
+ let foodType=veggie===true?"is vegiterian":"is non-vegeterian";
+ if(veggie===true){
+         foodType="vegiterian";
+ }
+ else{
+        foodType="non-vegiterian";
+ }
+    return`Hi,${name} is ${age} years old.He is a ${foodType}`
+}
+const result = displayUserDetails(userDataOne,wishingValue );
+console.log(result);
+
+
+const userDataOne = {name: 'Tim', age: 22, veggie: false, food:['fish', 'egg', 'meat']};
+const userDataTwo = {name: 'Krishna', age: 20, veggie: true, food:['Roti', 'Carrot', 'VegCurry']};
+  const wishingValue= "hi";
+const  displayUserDetails=(userData, wishingStr="hello")=>{
+ const{name,age,veggie,food}=userData;
+ let foodType=veggie?" vegiterian":" non-vegeterian";
+ 
+ return`${wishingStr},${name} is ${age} years old.He is a ${foodType} and likes to eat ${food.join("-")}`
+}
+const result = displayUserDetails(userDataTwo,wishingValue );
+console.log(result);
+
+
+const object ptopert:values = object name;
+Sunil H V11:29 AM
+const {name,age,veggie,...food} = objectname;
+Praveen Reddy11:31 AM
+const {name, age} = userData;
+------------------------------------------------------
+const name = userData.name;
+const age = user.age;
+
+
+
+const food = ['fish', 'egg', 'meat'];
+const [fishvalue, eggValue] = food;
+console.log(fishvalue);
+
+
+
+
+
+
+const userDataOne = {name: 'Tim', age: 22, veggie: false, food:['fish', 'egg', 'meat']};
+const userDataTwo = {name: 'Krishna', age: 20, veggie: true, food:['Roti', 'Carrot', 'VegCurry']};
+  const wishingValue= "hi";
+const  displayUserDetails=(userData, wishingStr="hello")=>{
+ const{name,age,veggie,food}=userData;
+ const [fishvalue]=food;
+ let foodType=veggie?" vegiterian":" non-vegeterian";
+ 
+ return`${wishingStr},${name} is ${age} years old.He is a ${foodType} and likes to eat ${fishvalue}`
+}
+const result = displayUserDetails(userDataOne,wishingValue );
+console.log(result);
+
+
+
+
+<div id ="container" class="display-Container">
+ </div>
+<input type="textbox" name="name" id="fullName"/>
+<input type="button"  id="btn" value="addName" onclick="addName()"/>
+
+
+css.
+.display-Container{
+                        width: 200px;
+                         height: 100px;
+                         border: 1px solid black;
+                        margin: 10px; 
+}
+js
+function addname(){
+const fullNameValue=document.getElementById("fullName").value;
+document.getElementById("container").innerText=fullNamevalue;
+document.getElementById("fullName").value="";
+}
+
+
+another//
+document.getElementById("container").innerText+=fullNameref.value;
+fullNameref.value="";
+
+
+
+another//
+document.getElementById("container").innerText+=\n `i am ${fullNameref.value}`;
+fullNameref.value="";
+
+
+
+
+
+<section>
+<h2>fruits list</h2> 
+<ul>
+<li id="apple-fruit">apple</li>
+<li id="banana-fruit">banan</li>
+<li id="grapes-fruit">grapes</li>
+<li id="pineapple-fruit">pineapple</li>
+<li id="cherries-fruit">cherries</li>
+</ul>
+</section>
+<input type ="button" value="Fruitcolor" onclick="changeFruitcolor('banana-fruit','red')"/>
+
+js
+let changeFruitcolor=(fruitsIdName,fruitsColorName)=>{
+  // document.getelementById("fruitsIdName").style["color"]=fruitsColorName;
+
+   let fruits = document.getElementById(fruitsIdName);
+   ///cnsole.log(fruits)
+   fruits.style["color"]=fruitsColourName;
+
+   let fruits = document.getElementById(fruitsIdName).style.color=colorName;
+   console.log(fruits);
+}
+
+
+
+
+let name = {
+  firstname: "John",
+  lastname: "Cobral",
+  /*getDeatils: function() {
+    console.log("FirstName:", this.firstname, "LastName:", this.lastname)
+  }*/
+};
+
+
+//name.getDeatils();
+
+let name2 = {
+  firstname: "Tim",
+  lastname: "Pascal",
+};
+
+let printDetails = function(place, country) {
+    console.log("FirstName:", this.firstname, "LastName:", this.lastname, "Place: ", place, "country : ", country);
+  };
+  //printDetails.call(name2, "NewYork", "US");
+  //printDetails.apply(name, ["New
+
+
+
+
+
+
+Apply:
+let name = {
+  firstname: "John",
+  lastname: "Cobral",
+};
+
+let name2 = {
+  firstname: "Tim",
+  lastname: "Pascal",
+};
+
+let printDetails = function(place, country) {
+    console.log("FirstName:", this.firstname, "LastName:", this.lastname, "Place: ", place, "country : ", country);
+  };
+printDetails.apply(name, ["NewYork", "US"]);
+prasanna sagi11:58 AM
+Bind:
+let name = {
+  firstname: "John",
+  lastname: "Cobral",
+};
+
+let name2 = {
+  firstname: "Tim",
+  lastname: "Pascal",
+};
+
+let printDetails = function(place, country) {
+    console.log("FirstName:", this.firstname, "LastName:", this.lastname, "Place: ", place, "country : ", country);
+  };
+let printFullName = printDetails.bind(name,"NewYork", "US");
+printFullName();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+practing
+*let person ={
+                firstName:"sivagangadhar",
+                secondName:"sagi",
+        getDetails:function(){
+               console.log ("firstName:",this.firstName, "secondName:",this.secondName)
+        }
+};
+person.getDetails();*/
+console.log(person.firstName);
+
+let person2 ={
+               firstName:"nanni",
+               secondName:"siva",
+               getDetails:function(){
+               console.log ("firstName:",this.firstName, "secondName:",this.secondName)
+               }
+};
+//person2.getDetails();;
+console.log(person2.firstName);
+
+call--------------------------------------------------------------
+let person ={
+                firstName:"sivagangadhar",
+                secondName:"sagi",
+                };
+let person2 ={
+               firstName:"nanni",
+               secondName:"siva",
+               };
+               
+ let printTwoDetails=function(country,place,street){
+               console.log ("firstName:",this.firstName, "secondName:",this.secondName,"country : ", country,"place:",place,"street:",street);
+        };
+   printTwoDetails.call(person,"india","borrampallem","anjineyaswami streetr");
+
+
+apply------------------------------------------------------------------
+let person ={
+                firstName:"sivagangadhar",
+                secondName:"sagi",
+                };
+let person2 ={
+               firstName:"nanni",
+               secondName:"siva",
+               };
+               
+ let printTwoDetails=function(country,place,street){
+               console.log ("firstName:",this.firstName, "secondName:",this.secondName,"country : ", country,"place:",place,"street:",street);
+        };
+   printTwoDetails.call(person,["india","borrampallem","anjineyaswami streetr"]);
+
+bind----------------------------------------------------------------------------------
+ 
+   let person ={
+                firstName:"sivagangadhar",
+                secondName:"sagi",
+                };
+let person2 ={
+               firstName:"nanni",
+               secondName:"siva",
+               };
+               
+let printTwoDetails=function(country,place,street){
+               console.log ("firstName:",this.firstName, "secondName:",this.secondName,"country : ", country,"place:",place,"street:",street);
+        };
+  let details=printTwoDetails.bind(person,"india","borrampallem","anjineyaswami streetr");
+  details();
+
+
+
+

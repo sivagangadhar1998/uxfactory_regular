@@ -1,0 +1,151 @@
+JSON?
+.it is stand for javascript object notation
+---EXCHANGE DATA
+.it used to exchanging the data bw the browser and server data
+only test
+.json is text we can also convert js object to into json and
+   send json to server
+.we also convert json received from the server convert js object
+
+
+SENDING DATA
+.if you wnat store the data in js object and convert objevct
+  into json and send to server by using the stringyfy method
+var myObj = {name: "John", age: 31, city: "New York"};
+var myJSON = JSON.stringify(myObj);
+
+
+RECEVING THYE DATA
+.if you receiveed the data  in form of json convert into a js
+  object by us ing the parse method 
+var myJSON = '{"name":"John", "age":31, "city":"New York"}';
+var myObj = JSON.parse(myJSON);
+
+
+text only meANS
+
+
+2.JSON SYNTAX
+Data is in name/value pairs
+Data is separated by commas
+Curly braces hold objects
+Square brackets hold arrays
+
+1.jsondata-name and value
+ .json data write as name value pair
+ .a name value pair consist of field name (in doubleq)
+   "name":"john"
+ json names require double quotes js not----
+
+2.json -evalute to jsobjects
+json keys must be in string 
+{"name":"siva":}
+
+.json string must be write in double quotes 
+.js u can write double are singlle
+
+
+
+
+3.json vs xml
+{"employees":[
+  { "firstName":"John", "lastName":"Doe" },
+  { "firstName":"Anna", "lastName":"Smith" },
+  { "firstName":"Peter", "lastName":"Jones" }
+]}
+
+
+Why JSON is Better Than XML
+XML is much more difficult to parse than JSON.
+JSON is parsed into a ready-to-use JavaScript object.
+
+For AJAX applications, JSON is faster and easier than XML:
+
+using json:
+Fetch a JSON string
+JSON.Parse the JSON string
+
+
+
+
+
+...json datatypes
+valid data types are 
+...the most common values for json
+a string
+a number
+an object (JSON object)
+an array
+a boolean
+null
+
+1.json string
+{"name":"siva"}
+in double codes must
+
+2.json number
+{"age":30}
+
+3.json object
+values in json is object
+{"employee":{"name":"siva","age":30,"city":"newyork"}
+}
+
+4.json aARRAY
+ VALUES IN JSON ARE ARRAY
+{"employee":["john","anna","peter"]
+}
+
+
+
+----JSON PARSE
+commonly used to exchange the data to/from a server
+when receive data from webserver the data is alwalys string
+parse the date json.parse() the data become the js object
+'{ "name":"John", "age":30, "city":"New York"}'
+var obj = JSON.parse('{ "name":"John", "age":30, "city":"New York"}');
+json format
+
+
+---Json Stringify
+var obj = { name: "John", age: 30, city: "New York" };
+Use the JavaScript function JSON.stringify() to convert 
+it into a string.
+
+
+-----JSON OBJECT
+syntax
+{"name":"siva","age":340,"car":null}
+JSON objects are surrounded by curly braces {}.
+
+JSON objects are written in key/value pairs.
+
+Keys must be strings, and values must be a valid JSON
+ data type (string, number, object, array, boolean or null).
+
+Keys and values are separated by a colon.
+
+Each key/value pair is separated by a comma.
+
+.nested object
+myObj={
+"name":"siva",
+ "age":30,
+"cars":{
+            "car1":"Ford",
+    "car2":"BMW",
+    "car3":"Fiat"}
+}
+acesing this objects by using .or[]
+document.getElementrById("demo").innerHTML=myobj.cars.cars2
+---                                                     ["cars2"]
+
+
+---MODIFY JSOON VALUES
+my obj.cars.car2="siva";
+------------["car2"]=""
+
+
+
+---delete object
+delete myobj.cars.car2

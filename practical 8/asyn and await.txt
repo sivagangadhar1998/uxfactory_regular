@@ -1,0 +1,83 @@
+<h2>JavaScript async / await</h2>
+
+<p id="demo"></p>
+
+function myDisplayer(some){
+
+document.getElementById("demo").innerHTML=some;
+
+}
+
+
+
+async function myFunction(){
+
+return Promise.resolve("Hello");
+}
+
+myFunction().then(
+
+function(value){
+  myDisplayer(value);
+},
+function(error){
+   myDisplayer(error);
+}
+);
+
+
+
+
+
+await
+async function  myDisplay() {
+
+ let myPromise = new Promise(function(myResolve, myReject){
+
+   Promise. myResolve("I love You !!");
+
+});
+ document.getElementById("demo").innerHTML = await myPromise;
+} 
+
+
+async function  myDisplay(){
+
+let myPromise= new Promise(function(myResolve, myReject){
+
+    setTimeout((function(){myResolve("I love You !!");},3000);
+});
+document.getElementById("demo").innerHTML=await  myPromise;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let abc = new Promise((resolve,reject)=>{
+
+    let a= 1+2;
+    if(a==2){
+     resolve("sucess is here")
+     }
+     else{
+       reject("sucess is not mine"); }
+    
+})
+
+abc.then((message)=>{
+ console.log("rhis is very sucee"+message)
+}).catch((message)=>{
+   console.log("this is catch"+message)
+})

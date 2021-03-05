@@ -1,0 +1,314 @@
+.features of es5
+1.use strict:
+use strict means the js code excute in strict mode
+2. string.strim() it used to remove the left and right spaces
+3.array.is array(): its check the whether its array or not
+4.forEach()+:
+ifor each method is used to call the function every 
+element in once in order
+.it returns three values:value,index, array
+
+5.map method()++::
+map method id smae as foreach() but it return new array
+.it doesnot change original array
+
+var numbers1 = [45, 4, 9, 16, 25];
+var numbers2 = numbers1.map(myFunction);
+
+document.getElementById("demo").innerHTML = numbers2;
+
+function myFunction(value, index, array) {
+  return value * 2;
+}
+
+6.filter()
+filter method is used to display new array.it display the
+satisfied elements
+
+var numbers1 = [45, 4, 9, 16, 25];
+var numbers2 = numbers1.map(myFunction);
+
+document.getElementById("demo").innerHTML = numbers2;
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+
+5.reduce()
+reduce method is used  to reduce the array in a single value
+var sum = numbers1.reduce(myFunction);
+
+function myFunction(total, value, index, array) {
+  return total + value;
+}
+
+8.every():::
+it staisifies the everyu elemnt in array
+
+9::some()::
+it checkes some elements to be satisifies
+
+10::find()++
+The find() method returns the value of the first
+ array element that passes a test function.
+
+
+.
+
+
+
+function sum(...args) {
+  let sum = 0;
+  for (let arg of args) sum += arg;
+  return sum;
+}
+
+let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
+
+
+
+
+
+
+
+.NEW FEATURES OF ES6
+
+The let keyword.
+The const keyword.
+JavaScript Arrow Functions.
+JavaScript Class.
+JavaScript Promise.
+JavaScript Symbol.
+Default Parameter Values.
+Function Rest Parameter.
+
+
+.LET key word:
+ECMAScript 6, also known as ES6 and ECMAScript 2015,
+ was the second major revision to JavaScript.
+
+let  varbiles are use to declare a varible in block scope
+
+var x= 10;
+{
+ let x =2;
+console.log(x);// here it display 2 because acess inside fun
+}
+
+console.log (x)//here it display 10 because it acess out side
+
+.. it is re updated redeclare is not possible
+
+before 2015 it having global and functional
+
+
+
+
+.GOBAL SCOPE
+by using var we can acess  function anywhere
+var carName = "Volvo";
+
+// code here can use carName
+
+function myFunction() {
+  // code here can also use carName
+}
+
+
+.FUNCTION SCOPE
+
+WE CAN ACESS THE FUNCTION INSIDE only
+
+function myFunction() {
+  var carName = "Volvo";
+  // code here CAN use carName
+}
+
+// code here can NOT use carName
+
+
+...here before 2015 the there is no block scope in javscript
+after 2015 come the let keyword
+
+overcomne redeclare the varibale use laet
+
+
+
+
+
+2.CONSTANT
+ CONSTANT VARBILE ALLOW TO DECALre constant
+same as let but the values are not changed
+
+. in come to const the  value cannot be redeclare and reassign
+
+the javscript constant  varibles are use to declare and assign at
+same time
+const PI;
+PI = 3.14159265359; in correct
+const PI = 3.14159265359;correct
+/ You can create a const object:
+const car = {type:"Fiat", model:"500", color:"white"};
+
+// You can change a property:
+car.color = "red";
+
+// You can add a property:
+car.owner = "Johnson";
+
+not reassign constant
+Redeclaring a variable with const, in another scope,
+ or in another block, is allowed:
+
+redecalre the constant any other scopes and other blocks ok
+const x = 2;       // Allowed
+
+{
+  const x = 3;   // Allowed
+}
+
+{
+  const x = 4;   // Allowed
+}
+
+
+
+
+
+3.ARROW FUNCTIONS
+
+arrow function is simple syntx of write js function expressions
+.es5
+ var x = function(x,y){
+  return x*y
+} 
+
+without using of func key return key
+
+es6
+const x=(x,y)=>x*y
+
+with three varibles with give arguments
+
+const x=(x,y=1)=>{
+
+let z =7;
+return x*y*z
+}
+
+consol.log((5,2);
+arrow function didnot use thisand this are not hoisted
+.yhis shorted syntax function
+
+ var hello=function(){
+return"hello world"
+}
+
+with arrow
+ var hello=()=>{
+return "----"
+}
+
+function as only one statement we can write
+var hello=()=>"hello world";
+
+in partneses
+var hello = (val) => "Hello " + val;
+
+
+
+come to this 
+regular functins this represent the object calls
+
+arrow function this represent the owner of the function
+
+
+4.JS CLASSES
+. this are always the tempaltes of objects
+. by using class name you create the class
+..added method name constructor
+class ClassName(){
+constructor(){}
+.js classesare nota  objects
+}
+myCar = new Car("Ford", 2014);new car
+by using methods get age of car using age()
+
+.class,construction,create object,class methods
+
+
+
+
+5promises (doubt)
+5 THE SYMBOL TYPE(DOUBT)
+
+
+
+
+6.DEFAULT PARAMETER VALUES
+es6 function parameters have default values in case we cannot
+provide
+unction myFunction(x, y = 10) {
+  // y is 10 if not passed or undefined
+  return x + y;
+}
+myFunction(5); // will return 15
+
+
+6.FUNCTION REST PARAMETER
+It is a collection of all remaining elements (hence, the name rest, 
+as in “the rest of the elements”) into an array.
+var myName = ["Marina" , "Magdy" , "Shafiq"] ;
+const [firstName , ...familyName] = myName ;
+console.log(firstName); // Marina ;
+console.log(familyName); // [ "Magdy" , "Shafiq"] ;
+
+The rest parameter (...) allows a function to treat an 
+indefinite number of arguments as an array:
+function sum(...args) {
+  let sum = 0;
+  for (let arg of args) sum += arg;
+  return sum;
+}
+
+let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
+
+
+
+7.array.find()
+
+findindexof() it retuuns index first satisy condition elelement
+
+
+
+8.NEW NUMBER PROPERTIES
+9.new number methods()
+1number .isinteger:return the true if argument is integer
+2.number.issafeinteger:return true if integer argument is asfe
+
+
+JS 6--------------------------------------------------------
+JavaScript Exponentiation (**)
+JavaScript Exponentiation assignment (**=)
+JavaScript Array.prototype.includes
+
+
+1.EXponential 
+**
+let x=5;
+let z=x**2;
+first operand is power of the second operand
+x=5;
+x**=2;
+
+2.array.include:its checks the whether the element is in array
+ or not
+
+2017
+
+
+object.entries() it return the key values pairs of an object
+object.values() it return the values of an array
+
+
+

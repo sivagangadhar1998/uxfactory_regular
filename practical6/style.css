@@ -1,0 +1,46 @@
+*{
+    margin:0%;
+    padding:0%;
+
+}
+/*
+.box1{
+        background-color: green;
+      
+}
+.box2{
+    background-color: red;
+    
+}
+
+.box3{
+    background-color: yellow;
+   
+}
+
+.box4{
+    background-color: black;
+}
+
+main{
+
+    height:100vh;
+    display:grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px 300px;
+    justify-content: center;
+    column-gap: 10px;
+}*/
+
+
+.gallery{
+     display:grid;
+     grid-template-columns: 300px 300px 300px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.gallery img{
+    width:100%;
+}
